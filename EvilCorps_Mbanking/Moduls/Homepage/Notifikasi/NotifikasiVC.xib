@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NotifikasiVC" customModule="EvilCorps_Mbanking" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="TEO-23-iUr" id="xfU-aV-EP9"/>
+                <outlet property="tableView" destination="kK6-HP-W8P" id="ugY-Fk-06p"/>
+                <outlet property="view" destination="fDe-EV-xs2" id="bhb-IK-AQv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fDe-EV-xs2">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tkh-52-J0O">
+                    <rect key="frame" x="0.0" y="59" width="393" height="32"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifikasi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7A-7r-Vhq">
+                            <rect key="frame" x="153.33333333333334" y="0.0" width="86.333333333333343" height="25"/>
+                            <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEO-23-iUr">
+                            <rect key="frame" x="20" y="0.0" width="32" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="32" id="LPT-IB-JbG"/>
+                                <constraint firstAttribute="height" constant="32" id="we0-ee-exb"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="icon left" title=""/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="dxv-Ng-Nye"/>
+                        <constraint firstItem="J7A-7r-Vhq" firstAttribute="top" secondItem="tkh-52-J0O" secondAttribute="top" id="kD8-Fa-07b"/>
+                        <constraint firstItem="TEO-23-iUr" firstAttribute="leading" secondItem="tkh-52-J0O" secondAttribute="leading" constant="20" id="rPp-72-Njm"/>
+                        <constraint firstItem="TEO-23-iUr" firstAttribute="centerY" secondItem="tkh-52-J0O" secondAttribute="centerY" id="u5m-Ru-qrv"/>
+                        <constraint firstItem="J7A-7r-Vhq" firstAttribute="centerX" secondItem="tkh-52-J0O" secondAttribute="centerX" id="z5X-HJ-Qmf"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="117" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kK6-HP-W8P">
+                    <rect key="frame" x="20" y="125" width="353" height="693"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="LEa-HF-RSX"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="LEa-HF-RSX" firstAttribute="trailing" secondItem="tkh-52-J0O" secondAttribute="trailing" id="8Dm-AG-oQ9"/>
+                <constraint firstItem="LEa-HF-RSX" firstAttribute="trailing" secondItem="kK6-HP-W8P" secondAttribute="trailing" constant="20" id="8Tu-DQ-yAF"/>
+                <constraint firstItem="kK6-HP-W8P" firstAttribute="top" secondItem="tkh-52-J0O" secondAttribute="bottom" constant="34" id="AMd-G4-nSg"/>
+                <constraint firstItem="LEa-HF-RSX" firstAttribute="bottom" secondItem="kK6-HP-W8P" secondAttribute="bottom" id="G1Z-jd-Suo"/>
+                <constraint firstItem="tkh-52-J0O" firstAttribute="top" secondItem="LEa-HF-RSX" secondAttribute="top" id="NIJ-26-Aoo"/>
+                <constraint firstItem="kK6-HP-W8P" firstAttribute="leading" secondItem="LEa-HF-RSX" secondAttribute="leading" constant="20" id="oLP-Yd-f3t"/>
+                <constraint firstItem="tkh-52-J0O" firstAttribute="leading" secondItem="LEa-HF-RSX" secondAttribute="leading" id="sAU-qn-hDA"/>
+            </constraints>
+            <point key="canvasLocation" x="275.57251908396944" y="51.408450704225352"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon left" width="32.333332061767578" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

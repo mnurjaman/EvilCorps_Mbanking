@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+        <array key="Satoshi-Medium.otf">
+            <string>Satoshi-Medium</string>
+        </array>
+        <array key="Satoshi-Regular.otf">
+            <string>Satoshi-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Onboarding3" customModule="EvilCorps_Mbanking" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="B5O-4H-niD" id="Wjs-bL-cvh"/>
+                <outlet property="btnNext" destination="fog-1p-9b3" id="ErC-RU-h90"/>
+                <outlet property="btnSkip" destination="duO-fc-cFi" id="HIl-Px-DaG"/>
+                <outlet property="view" destination="jHR-qV-1a0" id="s3s-uz-84C"/>
+                <outlet property="viewbg" destination="jHR-qV-1a0" id="TAY-Il-Bw7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jHR-qV-1a0">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duO-fc-cFi">
+                    <rect key="frame" x="342" y="59" width="31" height="32"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Skip">
+                        <color key="titleColor" name="Neutral 100"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anda dapat melacak pemasukan dan pengeluaran keuangan anda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tg3-lv-1Vv">
+                    <rect key="frame" x="51.666666666666657" y="615" width="290" height="40.666666666666629"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="tg3-lv-1Vv" secondAttribute="height" multiplier="272:38" id="vPf-xp-2oh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nikmati Kesuksesan Dalam Finansial" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61D-mV-shs">
+                    <rect key="frame" x="75" y="534" width="243" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="61D-mV-shs" secondAttribute="height" multiplier="225:64" id="SrN-h4-l7F"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding33" translatesAutoresizingMaskIntoConstraints="NO" id="bb9-ib-poX">
+                    <rect key="frame" x="86.666666666666671" y="59" width="219.66666666666663" height="431"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bb9-ib-poX" secondAttribute="height" multiplier="219:430" id="fw1-C7-U9v"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnBack" translatesAutoresizingMaskIntoConstraints="NO" id="B5O-4H-niD">
+                    <rect key="frame" x="20" y="680" width="93" height="96"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fog-1p-9b3">
+                    <rect key="frame" x="313" y="698" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="5FA-td-bQq"/>
+                        <constraint firstAttribute="width" constant="60" id="XbW-df-foK"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="btnNext1" title=""/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="jUo-ts-IsG"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="jUo-ts-IsG" firstAttribute="bottom" secondItem="fog-1p-9b3" secondAttribute="bottom" constant="60" id="Ekk-JU-Uca"/>
+                <constraint firstItem="B5O-4H-niD" firstAttribute="centerY" secondItem="fog-1p-9b3" secondAttribute="centerY" id="GxO-Gs-YTa"/>
+                <constraint firstItem="bb9-ib-poX" firstAttribute="top" secondItem="jUo-ts-IsG" secondAttribute="top" id="KLv-iE-SMY"/>
+                <constraint firstItem="duO-fc-cFi" firstAttribute="top" secondItem="jUo-ts-IsG" secondAttribute="top" id="KcO-l0-C5q"/>
+                <constraint firstItem="tg3-lv-1Vv" firstAttribute="top" secondItem="61D-mV-shs" secondAttribute="bottom" constant="12" id="MCP-qU-VVY"/>
+                <constraint firstItem="61D-mV-shs" firstAttribute="top" secondItem="bb9-ib-poX" secondAttribute="bottom" constant="44" id="Qk9-cM-MgD"/>
+                <constraint firstItem="tg3-lv-1Vv" firstAttribute="leading" secondItem="jUo-ts-IsG" secondAttribute="leading" constant="51.5" id="ban-Ws-jvw"/>
+                <constraint firstItem="jUo-ts-IsG" firstAttribute="trailing" secondItem="duO-fc-cFi" secondAttribute="trailing" constant="20" id="c1o-0T-YqC"/>
+                <constraint firstItem="jUo-ts-IsG" firstAttribute="trailing" secondItem="fog-1p-9b3" secondAttribute="trailing" constant="20" id="csh-fc-gAM"/>
+                <constraint firstItem="B5O-4H-niD" firstAttribute="leading" secondItem="jUo-ts-IsG" secondAttribute="leading" constant="20" id="gdB-nC-SXf"/>
+                <constraint firstItem="61D-mV-shs" firstAttribute="leading" secondItem="jHR-qV-1a0" secondAttribute="leading" constant="75" id="ipk-8y-poi"/>
+                <constraint firstAttribute="trailing" secondItem="61D-mV-shs" secondAttribute="trailing" constant="75" id="jLT-KD-bmy"/>
+                <constraint firstItem="jUo-ts-IsG" firstAttribute="trailing" secondItem="tg3-lv-1Vv" secondAttribute="trailing" constant="51.5" id="kJF-eg-qvW"/>
+                <constraint firstItem="bb9-ib-poX" firstAttribute="centerX" secondItem="jUo-ts-IsG" secondAttribute="centerX" id="u0a-si-8cc"/>
+            </constraints>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btnBack" width="93" height="96"/>
+        <image name="btnNext1" width="96" height="96"/>
+        <image name="onboarding33" width="219" height="431"/>
+        <namedColor name="Neutral 100">
+            <color red="0.125" green="0.13699999451637268" blue="0.15299999713897705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

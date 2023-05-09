@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+        <array key="Satoshi-Medium.otf">
+            <string>Satoshi-Medium</string>
+        </array>
+        <array key="Satoshi-Regular.otf">
+            <string>Satoshi-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MutasiVC" customModule="EvilCorps_Mbanking" customModuleProvider="target">
+            <connections>
+                <outlet property="btnSerch" destination="cBt-h2-8Lc" id="Sz4-v8-cpm"/>
+                <outlet property="tableView" destination="Ku9-vm-8PZ" id="Vit-kS-d5R"/>
+                <outlet property="txtDate" destination="7tt-Eg-XrG" id="hQh-w9-uvK"/>
+                <outlet property="txtDate2" destination="twS-oT-YiI" id="FV0-Fb-4AM"/>
+                <outlet property="txtJenisTransaksi" destination="dq3-OQ-pcE" id="8Hw-gg-eNg"/>
+                <outlet property="view" destination="iN0-l3-epB" id="7FA-Wl-Y67"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mutasi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8L-Re-XLd">
+                    <rect key="frame" x="20" y="59" width="353" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="Esc-yN-Jfc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pilih Jenis Transaksi : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlA-l6-AYj">
+                    <rect key="frame" x="20" y="122" width="353" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="Ife-Ut-6Qb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Dari :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJ1-Bn-s7h">
+                    <rect key="frame" x="20" y="225" width="34" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pilih Jenis Transaksi" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="dq3-OQ-pcE">
+                    <rect key="frame" x="20" y="153" width="353" height="48"/>
+                    <color key="backgroundColor" name="Neutral 20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="usB-XC-nnm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hFs-eg-p9M">
+                    <rect key="frame" x="348" y="173.33333333333334" width="18" height="7.9999999999999858"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="97R-mL-ZxS"/>
+                        <constraint firstAttribute="width" constant="18" id="ee1-Rv-sLH"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ke :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTu-8M-GYf">
+                    <rect key="frame" x="216" y="225" width="25" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r84-PS-bcq">
+                    <rect key="frame" x="20" y="247" width="166.66666666666666" height="46"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="dd//mm//yyyy" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7tt-Eg-XrG">
+                            <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="46"/>
+                            <color key="backgroundColor" name="Neutral 20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="ayB-AB-tFP">
+                            <rect key="frame" x="140.66666666666666" y="14" width="18" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="18" id="4Ic-p8-rXV"/>
+                                <constraint firstAttribute="height" constant="18" id="qCJ-s6-k3n"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="7tt-Eg-XrG" secondAttribute="bottom" id="10K-pl-AVh"/>
+                        <constraint firstItem="7tt-Eg-XrG" firstAttribute="top" secondItem="r84-PS-bcq" secondAttribute="top" id="J9y-kY-D4y"/>
+                        <constraint firstAttribute="trailing" secondItem="ayB-AB-tFP" secondAttribute="trailing" constant="8" id="QBN-9k-Ge3"/>
+                        <constraint firstItem="7tt-Eg-XrG" firstAttribute="leading" secondItem="r84-PS-bcq" secondAttribute="leading" id="Zwc-Sh-275"/>
+                        <constraint firstItem="ayB-AB-tFP" firstAttribute="centerY" secondItem="7tt-Eg-XrG" secondAttribute="centerY" id="h12-ra-iPJ"/>
+                        <constraint firstAttribute="trailing" secondItem="7tt-Eg-XrG" secondAttribute="trailing" id="yFy-uO-SAn"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tcH-82-uVO">
+                    <rect key="frame" x="206.66666666666663" y="247" width="166.33333333333337" height="46"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="dd//mm//yyyy" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="twS-oT-YiI">
+                            <rect key="frame" x="0.0" y="0.0" width="166.33333333333334" height="46"/>
+                            <color key="backgroundColor" name="Neutral 20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="kNZ-em-gpt">
+                            <rect key="frame" x="140.33333333333334" y="14" width="18" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="18" id="4PG-kL-MTU"/>
+                                <constraint firstAttribute="height" constant="18" id="VAf-MP-H2I"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="twS-oT-YiI" firstAttribute="leading" secondItem="tcH-82-uVO" secondAttribute="leading" id="5m5-Xk-mUJ"/>
+                        <constraint firstAttribute="trailing" secondItem="kNZ-em-gpt" secondAttribute="trailing" constant="8" id="P1H-rQ-WwH"/>
+                        <constraint firstAttribute="trailing" secondItem="twS-oT-YiI" secondAttribute="trailing" id="XKu-VM-PQh"/>
+                        <constraint firstItem="twS-oT-YiI" firstAttribute="top" secondItem="tcH-82-uVO" secondAttribute="top" id="fvS-Vh-1ra"/>
+                        <constraint firstItem="kNZ-em-gpt" firstAttribute="centerY" secondItem="twS-oT-YiI" secondAttribute="centerY" id="pGH-rc-n0X"/>
+                        <constraint firstAttribute="bottom" secondItem="twS-oT-YiI" secondAttribute="bottom" id="v0N-SA-BJ4"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="R8i-HO-cnP">
+                    <rect key="frame" x="20" y="310" width="16" height="14.666666666666686"/>
+                    <color key="tintColor" name="negativeCase"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="Ckj-S5-ZqO"/>
+                        <constraint firstAttribute="height" constant="16" id="rvA-m0-yIX"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catatan : Periode Mutasi hanya dapat dipilih maksimal 7 hari" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPT-Ka-T6a">
+                    <rect key="frame" x="43" y="309.33333333333331" width="316" height="15"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="12"/>
+                    <color key="textColor" name="negativeCase"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBt-h2-8Lc">
+                    <rect key="frame" x="20" y="360" width="353" height="48"/>
+                    <color key="backgroundColor" name="Blue Default"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="TzZ-Fv-1aF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Cari">
+                        <color key="titleColor" name="Neutral 10"/>
+                    </state>
+                    <connections>
+                        <action selector="btnSerch:" destination="-1" eventType="touchUpInside" id="BDZ-3q-wUR"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separator" translatesAutoresizingMaskIntoConstraints="NO" id="n6K-yC-3ZS">
+                    <rect key="frame" x="0.0" y="432" width="393" height="1.3333333333333144"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ku9-vm-8PZ">
+                    <rect key="frame" x="20" y="457.33333333333326" width="353" height="360.66666666666674"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="Neutral 10"/>
+            <constraints>
+                <constraint firstItem="f8L-Re-XLd" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="2p6-uG-k93"/>
+                <constraint firstItem="iJ1-Bn-s7h" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="4Jm-Bz-GhZ"/>
+                <constraint firstItem="WTu-8M-GYf" firstAttribute="top" secondItem="dq3-OQ-pcE" secondAttribute="bottom" constant="24" id="5b6-FK-Lg4"/>
+                <constraint firstItem="tcH-82-uVO" firstAttribute="leading" secondItem="r84-PS-bcq" secondAttribute="trailing" constant="20" id="BaX-1Y-jaf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tcH-82-uVO" secondAttribute="trailing" constant="20" id="Edd-ee-dBR"/>
+                <constraint firstItem="dq3-OQ-pcE" firstAttribute="top" secondItem="BlA-l6-AYj" secondAttribute="bottom" constant="4" id="Ftj-H2-Q3l"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Ku9-vm-8PZ" secondAttribute="bottom" id="GxW-M6-Iia"/>
+                <constraint firstItem="R8i-HO-cnP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="I1r-Ft-nlU"/>
+                <constraint firstItem="YPT-Ka-T6a" firstAttribute="leading" secondItem="R8i-HO-cnP" secondAttribute="trailing" constant="7" id="LdQ-6N-Tca"/>
+                <constraint firstItem="tcH-82-uVO" firstAttribute="leading" secondItem="r84-PS-bcq" secondAttribute="trailing" constant="20" id="O2J-Nk-vVt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hFs-eg-p9M" secondAttribute="trailing" constant="27" id="SAz-1m-t4w"/>
+                <constraint firstItem="tcH-82-uVO" firstAttribute="width" secondItem="r84-PS-bcq" secondAttribute="height" multiplier="29:8" id="STa-Ba-AP6"/>
+                <constraint firstItem="dq3-OQ-pcE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="SaM-gC-Iu0"/>
+                <constraint firstItem="tcH-82-uVO" firstAttribute="height" secondItem="r84-PS-bcq" secondAttribute="height" id="Von-6h-Qr7"/>
+                <constraint firstItem="cBt-h2-8Lc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="WCn-Y8-UVo"/>
+                <constraint firstItem="YPT-Ka-T6a" firstAttribute="centerY" secondItem="R8i-HO-cnP" secondAttribute="centerY" id="XA3-Is-OFv"/>
+                <constraint firstItem="Ku9-vm-8PZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="a0B-aq-6BO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dq3-OQ-pcE" secondAttribute="trailing" constant="20" id="aNK-bu-69p"/>
+                <constraint firstItem="tcH-82-uVO" firstAttribute="top" secondItem="WTu-8M-GYf" secondAttribute="bottom" constant="4" id="cDo-Lu-Wbj"/>
+                <constraint firstItem="Ku9-vm-8PZ" firstAttribute="top" secondItem="n6K-yC-3ZS" secondAttribute="bottom" constant="24" id="cfK-kQ-gpe"/>
+                <constraint firstItem="n6K-yC-3ZS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="dpF-ZV-bqq"/>
+                <constraint firstItem="n6K-yC-3ZS" firstAttribute="top" secondItem="cBt-h2-8Lc" secondAttribute="bottom" constant="24" id="ekG-aO-ZOz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="BlA-l6-AYj" secondAttribute="trailing" constant="20" id="fkZ-5o-YZI"/>
+                <constraint firstItem="BlA-l6-AYj" firstAttribute="top" secondItem="f8L-Re-XLd" secondAttribute="bottom" constant="36" id="jAD-0E-7vE"/>
+                <constraint firstItem="cBt-h2-8Lc" firstAttribute="top" secondItem="R8i-HO-cnP" secondAttribute="bottom" constant="35" id="k8Y-xY-QYl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ku9-vm-8PZ" secondAttribute="trailing" constant="20" id="kiK-2R-GKP"/>
+                <constraint firstItem="r84-PS-bcq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="l2V-yR-9Iz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="f8L-Re-XLd" secondAttribute="trailing" constant="20" id="lGh-QU-IdH"/>
+                <constraint firstItem="Ku9-vm-8PZ" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="ljg-Ho-tzR"/>
+                <constraint firstItem="hFs-eg-p9M" firstAttribute="top" secondItem="BlA-l6-AYj" secondAttribute="bottom" constant="19" id="lmg-oK-gjd"/>
+                <constraint firstItem="tcH-82-uVO" firstAttribute="width" secondItem="r84-PS-bcq" secondAttribute="width" id="lqx-YM-6d5"/>
+                <constraint firstItem="BlA-l6-AYj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="mPN-P1-JGv"/>
+                <constraint firstItem="WTu-8M-GYf" firstAttribute="leading" secondItem="iJ1-Bn-s7h" secondAttribute="trailing" constant="162" id="nc4-hH-0lG"/>
+                <constraint firstItem="f8L-Re-XLd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="qLC-5e-lc2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="n6K-yC-3ZS" secondAttribute="trailing" id="sFv-MF-JMb"/>
+                <constraint firstItem="r84-PS-bcq" firstAttribute="top" secondItem="iJ1-Bn-s7h" secondAttribute="bottom" constant="4" id="uZb-Ck-nY9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cBt-h2-8Lc" secondAttribute="trailing" constant="20" id="vso-WN-aau"/>
+                <constraint firstItem="iJ1-Bn-s7h" firstAttribute="top" secondItem="dq3-OQ-pcE" secondAttribute="bottom" constant="24" id="w9Z-I4-GCk"/>
+                <constraint firstItem="R8i-HO-cnP" firstAttribute="top" secondItem="r84-PS-bcq" secondAttribute="bottom" constant="16" id="xRx-HR-vm8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="64.885496183206101" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calendar" width="18" height="18"/>
+        <image name="chevron.down" catalog="system" width="128" height="70"/>
+        <image name="info.circle" catalog="system" width="128" height="123"/>
+        <image name="separator" width="335" height="1.3333333730697632"/>
+        <namedColor name="Blue Default">
+            <color red="0.18400000035762787" green="0.50999999046325684" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Neutral 10">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Neutral 20">
+            <color red="0.94499999284744263" green="0.9570000171661377" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="negativeCase">
+            <color red="0.88200002908706665" green="0.19599999487400055" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+        <array key="Satoshi-Medium.otf">
+            <string>Satoshi-Medium</string>
+        </array>
+        <array key="Satoshi-Regular.otf">
+            <string>Satoshi-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KonfirmTransfer" customModule="EvilCorps_Mbanking" customModuleProvider="target">
+            <connections>
+                <outlet property="btnTransfer" destination="H5d-o4-gGQ" id="ZsM-BQ-mZr"/>
+                <outlet property="imgNavigation" destination="Iqd-MB-vZF" id="9DK-Uh-Njo"/>
+                <outlet property="view" destination="iN0-l3-epB" id="bDu-1y-efo"/>
+                <outlet property="view1" destination="zZh-nv-sNW" id="KMr-gM-oPM"/>
+                <outlet property="view2" destination="qx6-Tp-TI4" id="lhO-bt-gCc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Xs-9Y-5tr">
+                    <rect key="frame" x="0.0" y="59" width="393" height="32"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transfer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbn-Yg-nLD">
+                            <rect key="frame" x="158.66666666666666" y="0.0" width="76" height="25"/>
+                            <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon left" translatesAutoresizingMaskIntoConstraints="NO" id="Iqd-MB-vZF">
+                            <rect key="frame" x="20" y="0.0" width="32" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="32" id="dqV-cj-drN"/>
+                                <constraint firstAttribute="height" constant="32" id="raZ-ng-ifo"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="Yaa-3i-Vci"/>
+                        <constraint firstItem="Iqd-MB-vZF" firstAttribute="leading" secondItem="5Xs-9Y-5tr" secondAttribute="leading" constant="20" id="fgC-TT-LbD"/>
+                        <constraint firstItem="kbn-Yg-nLD" firstAttribute="centerX" secondItem="5Xs-9Y-5tr" secondAttribute="centerX" id="gJn-ay-wky"/>
+                        <constraint firstItem="Iqd-MB-vZF" firstAttribute="centerY" secondItem="5Xs-9Y-5tr" secondAttribute="centerY" id="hMQ-d4-rUx"/>
+                        <constraint firstItem="kbn-Yg-nLD" firstAttribute="top" secondItem="5Xs-9Y-5tr" secondAttribute="top" id="mV2-gO-nuI"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informasi Penerima" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rkd-iY-Opl">
+                    <rect key="frame" x="20" y="125" width="118" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAt-hP-Cez">
+                    <rect key="frame" x="143" y="125" width="4" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zZh-nv-sNW">
+                    <rect key="frame" x="20" y="147" width="353" height="64"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar-Text" translatesAutoresizingMaskIntoConstraints="NO" id="4Hd-ZK-V7Z">
+                            <rect key="frame" x="16" y="12" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="7ix-er-NlQ"/>
+                                <constraint firstAttribute="width" constant="40" id="msa-3r-7QE"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shanilda Shalsabila" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qh-WF-I3o">
+                            <rect key="frame" x="68" y="12" width="147" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank Central Asia - 5386212106" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dZ-0B-aQd">
+                            <rect key="frame" x="68.000000000000014" y="37" width="209.33333333333337" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" name="Neutral 70"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.88235294117647056" green="0.92941176470588238" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="4Hd-ZK-V7Z" firstAttribute="centerY" secondItem="zZh-nv-sNW" secondAttribute="centerY" id="2eG-UA-MYJ"/>
+                        <constraint firstItem="9dZ-0B-aQd" firstAttribute="top" secondItem="5Qh-WF-I3o" secondAttribute="bottom" constant="4" id="Eb5-db-Q2k"/>
+                        <constraint firstItem="5Qh-WF-I3o" firstAttribute="leading" secondItem="4Hd-ZK-V7Z" secondAttribute="trailing" constant="12" id="O8J-AC-FGe"/>
+                        <constraint firstItem="9dZ-0B-aQd" firstAttribute="leading" secondItem="4Hd-ZK-V7Z" secondAttribute="trailing" constant="12" id="fBu-0G-6Wv"/>
+                        <constraint firstItem="5Qh-WF-I3o" firstAttribute="top" secondItem="zZh-nv-sNW" secondAttribute="top" constant="12" id="gCe-ED-hQ9"/>
+                        <constraint firstItem="4Hd-ZK-V7Z" firstAttribute="leading" secondItem="zZh-nv-sNW" secondAttribute="leading" constant="16" id="qVD-5B-f5N"/>
+                        <constraint firstAttribute="height" constant="64" id="rDJ-m5-0Mc"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informasi Pengirim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5V-NC-qxM">
+                    <rect key="frame" x="20" y="235" width="115" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail Transaksi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoN-at-V09">
+                    <rect key="frame" x="20" y="371" width="353" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AGC5634" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQq-5v-WO9">
+                    <rect key="frame" x="309" y="399" width="64" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Antar Bank" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2d-dA-upb">
+                    <rect key="frame" x="303" y="427" width="70" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5342313121" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVK-p6-L39">
+                    <rect key="frame" x="301" y="455" width="72" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shalsabila" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRT-Se-0gD">
+                    <rect key="frame" x="310" y="483" width="63" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5386212106" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="td9-Ib-SNI">
+                    <rect key="frame" x="294" y="511" width="79" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shanilda Shalsabila" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRF-6b-icJ">
+                    <rect key="frame" x="252" y="539" width="121" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp.2.980.0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBA-je-dRm">
+                    <rect key="frame" x="271" y="567" width="102" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. 6.500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49Y-vj-Fuv">
+                    <rect key="frame" x="308" y="595" width="65" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a nice day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODO-Iq-65P">
+                    <rect key="frame" x="273" y="623" width="100" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. 2.986.500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rA-We-b01">
+                    <rect key="frame" x="279" y="664" width="94" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID Referensi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c38-uy-uso">
+                    <rect key="frame" x="20" y="399" width="73.333333333333329" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipe Transaksi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aop-EB-md1">
+                    <rect key="frame" x="20" y="427" width="86" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rekening Pengirim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPW-Uf-Bfa">
+                    <rect key="frame" x="20" y="455" width="115" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catatan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIc-td-WVr">
+                    <rect key="frame" x="20" y="623" width="48" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Transaksi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6l-oV-wb0">
+                    <rect key="frame" x="20" y="664" width="89" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biaya Transaksi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bv-12-Q5a">
+                    <rect key="frame" x="20" y="595" width="93" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nominal Transaksi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5s-dC-E8U">
+                    <rect key="frame" x="20" y="567" width="111" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nama Penerima" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcT-OX-A4u">
+                    <rect key="frame" x="20" y="539" width="99" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rekening Penerima" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RF-16-H5L">
+                    <rect key="frame" x="20" y="511" width="119" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nama Pengirim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guo-vn-7nQ">
+                    <rect key="frame" x="20" y="483" width="95" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <color key="textColor" name="Neutral 60"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qx6-Tp-TI4">
+                    <rect key="frame" x="20" y="257" width="353" height="64"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar-Text" translatesAutoresizingMaskIntoConstraints="NO" id="vLt-sr-Pfq">
+                            <rect key="frame" x="16" y="12" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="8yY-CG-4Dv"/>
+                                <constraint firstAttribute="width" constant="40" id="AKz-aO-dRf"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shalsabila" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jD-bn-4wv">
+                            <rect key="frame" x="68" y="12" width="77" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evil Corps Bank - 5342313121" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvp-a1-Jd6">
+                            <rect key="frame" x="68" y="37" width="194" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" name="Neutral 70"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.88235294119999996" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="vLt-sr-Pfq" firstAttribute="centerY" secondItem="qx6-Tp-TI4" secondAttribute="centerY" id="5lr-ba-t6A"/>
+                        <constraint firstItem="nvp-a1-Jd6" firstAttribute="leading" secondItem="vLt-sr-Pfq" secondAttribute="trailing" constant="12" id="Jvg-s3-hlN"/>
+                        <constraint firstItem="3jD-bn-4wv" firstAttribute="leading" secondItem="vLt-sr-Pfq" secondAttribute="trailing" constant="12" id="WcQ-8G-hOI"/>
+                        <constraint firstAttribute="height" constant="64" id="cRh-dg-Mf3"/>
+                        <constraint firstItem="vLt-sr-Pfq" firstAttribute="leading" secondItem="qx6-Tp-TI4" secondAttribute="leading" constant="16" id="dlu-Jr-LJR"/>
+                        <constraint firstItem="nvp-a1-Jd6" firstAttribute="top" secondItem="3jD-bn-4wv" secondAttribute="bottom" constant="4" id="e2c-Fj-jnw"/>
+                        <constraint firstItem="3jD-bn-4wv" firstAttribute="top" secondItem="qx6-Tp-TI4" secondAttribute="top" constant="12" id="uT9-Xn-wrW"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBM-sx-bsF">
+                    <rect key="frame" x="140" y="235" width="4" height="18"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separator line" translatesAutoresizingMaskIntoConstraints="NO" id="eMu-9R-RMY">
+                    <rect key="frame" x="20" y="345" width="353" height="2"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separator line" translatesAutoresizingMaskIntoConstraints="NO" id="evB-5c-eBf">
+                    <rect key="frame" x="20" y="651" width="353" height="2"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5d-o4-gGQ">
+                    <rect key="frame" x="20" y="746" width="353" height="42"/>
+                    <color key="backgroundColor" name="Blue Default"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="Kyv-D2-qsg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Transfer">
+                        <color key="titleColor" name="Neutral 10"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="F6l-oV-wb0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="0da-VJ-rMJ"/>
+                <constraint firstItem="c38-uy-uso" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="0eX-FN-27a"/>
+                <constraint firstItem="wRT-Se-0gD" firstAttribute="top" secondItem="cVK-p6-L39" secondAttribute="bottom" constant="10" id="32T-bZ-hcQ"/>
+                <constraint firstItem="SoN-at-V09" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="3ea-2R-Ydx"/>
+                <constraint firstItem="5Xs-9Y-5tr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="45g-8a-u4J"/>
+                <constraint firstItem="evB-5c-eBf" firstAttribute="top" secondItem="ODO-Iq-65P" secondAttribute="bottom" constant="10" id="4HX-EJ-tfG"/>
+                <constraint firstItem="aAt-hP-Cez" firstAttribute="centerY" secondItem="Rkd-iY-Opl" secondAttribute="centerY" id="54b-zw-1XH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="evB-5c-eBf" secondAttribute="trailing" constant="20" id="5xV-4W-zld"/>
+                <constraint firstItem="guo-vn-7nQ" firstAttribute="top" secondItem="zPW-Uf-Bfa" secondAttribute="bottom" constant="10" id="8K5-6e-nlm"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="49Y-vj-Fuv" secondAttribute="trailing" constant="20" id="8fc-8c-Okm"/>
+                <constraint firstItem="Rkd-iY-Opl" firstAttribute="top" secondItem="5Xs-9Y-5tr" secondAttribute="bottom" constant="34" id="8lG-C7-yrM"/>
+                <constraint firstItem="guo-vn-7nQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="95D-Us-bPa"/>
+                <constraint firstItem="jIc-td-WVr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="9cd-5d-jb4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cVK-p6-L39" secondAttribute="trailing" constant="20" id="AIU-43-b6Q"/>
+                <constraint firstItem="c38-uy-uso" firstAttribute="top" secondItem="SoN-at-V09" secondAttribute="bottom" constant="10" id="ASO-PH-ENH"/>
+                <constraint firstItem="td9-Ib-SNI" firstAttribute="top" secondItem="wRT-Se-0gD" secondAttribute="bottom" constant="10" id="AUx-VX-YIi"/>
+                <constraint firstItem="3RF-16-H5L" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="GOb-ql-Ple"/>
+                <constraint firstItem="eMu-9R-RMY" firstAttribute="top" secondItem="qx6-Tp-TI4" secondAttribute="bottom" constant="24" id="GU0-BF-BeH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ODO-Iq-65P" secondAttribute="trailing" constant="20" id="GfH-w6-dil"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5Xs-9Y-5tr" secondAttribute="trailing" id="ICD-d0-WyU"/>
+                <constraint firstItem="Rkd-iY-Opl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="IDU-WG-9c1"/>
+                <constraint firstItem="F6l-oV-wb0" firstAttribute="top" secondItem="evB-5c-eBf" secondAttribute="bottom" constant="11" id="LxD-bo-msm"/>
+                <constraint firstItem="3RF-16-H5L" firstAttribute="top" secondItem="guo-vn-7nQ" secondAttribute="bottom" constant="10" id="M5X-0J-n4O"/>
+                <constraint firstItem="RQq-5v-WO9" firstAttribute="top" secondItem="SoN-at-V09" secondAttribute="bottom" constant="10" id="N0S-9g-Npt"/>
+                <constraint firstItem="qx6-Tp-TI4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="NVa-YJ-gPD"/>
+                <constraint firstItem="aAt-hP-Cez" firstAttribute="leading" secondItem="Rkd-iY-Opl" secondAttribute="trailing" constant="5" id="Nu9-Y0-al4"/>
+                <constraint firstItem="U5V-NC-qxM" firstAttribute="top" secondItem="zZh-nv-sNW" secondAttribute="bottom" constant="24" id="PZp-dy-XXX"/>
+                <constraint firstItem="qx6-Tp-TI4" firstAttribute="top" secondItem="U5V-NC-qxM" secondAttribute="bottom" constant="4" id="QAX-4x-YPD"/>
+                <constraint firstItem="jIc-td-WVr" firstAttribute="top" secondItem="8bv-12-Q5a" secondAttribute="bottom" constant="10" id="RIF-PA-it3"/>
+                <constraint firstItem="g2d-dA-upb" firstAttribute="top" secondItem="RQq-5v-WO9" secondAttribute="bottom" constant="10" id="SFS-QI-I7Z"/>
+                <constraint firstItem="8bv-12-Q5a" firstAttribute="top" secondItem="o5s-dC-E8U" secondAttribute="bottom" constant="10" id="SIV-bg-eKZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="qx6-Tp-TI4" secondAttribute="trailing" constant="20" id="VQT-Ie-dOU"/>
+                <constraint firstItem="eMu-9R-RMY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="W5m-XP-fF7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="RQq-5v-WO9" secondAttribute="trailing" constant="20" id="Wek-Ab-UHK"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wRT-Se-0gD" secondAttribute="trailing" constant="20" id="Y6T-UR-clY"/>
+                <constraint firstItem="o5s-dC-E8U" firstAttribute="top" secondItem="mcT-OX-A4u" secondAttribute="bottom" constant="10" id="YEx-n3-dSc"/>
+                <constraint firstItem="U5V-NC-qxM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="aS0-Dp-nEQ"/>
+                <constraint firstItem="KBM-sx-bsF" firstAttribute="leading" secondItem="U5V-NC-qxM" secondAttribute="trailing" constant="5" id="ayJ-gS-pYB"/>
+                <constraint firstItem="zPW-Uf-Bfa" firstAttribute="top" secondItem="Aop-EB-md1" secondAttribute="bottom" constant="10" id="bUq-5T-sgX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VRF-6b-icJ" secondAttribute="trailing" constant="20" id="cae-bl-IQZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="zZh-nv-sNW" secondAttribute="trailing" constant="20" id="car-0H-ocv"/>
+                <constraint firstItem="Aop-EB-md1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="cg6-Mg-vp4"/>
+                <constraint firstItem="uBA-je-dRm" firstAttribute="top" secondItem="VRF-6b-icJ" secondAttribute="bottom" constant="10" id="cs5-Df-LVh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eMu-9R-RMY" secondAttribute="trailing" constant="20" id="e9O-0z-tmL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="td9-Ib-SNI" secondAttribute="trailing" constant="20" id="eH9-CY-fUH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="H5d-o4-gGQ" secondAttribute="bottom" constant="30" id="efX-Qa-KAG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="uBA-je-dRm" secondAttribute="trailing" constant="20" id="epv-uc-M0l"/>
+                <constraint firstItem="VRF-6b-icJ" firstAttribute="top" secondItem="td9-Ib-SNI" secondAttribute="bottom" constant="10" id="gGC-Bg-ObA"/>
+                <constraint firstItem="mcT-OX-A4u" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="ghM-Mp-CG4"/>
+                <constraint firstItem="o5s-dC-E8U" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="gxa-Yi-9xc"/>
+                <constraint firstItem="Aop-EB-md1" firstAttribute="top" secondItem="c38-uy-uso" secondAttribute="bottom" constant="10" id="h1m-ed-szB"/>
+                <constraint firstItem="8bv-12-Q5a" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="ht2-0k-t1E"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9rA-We-b01" secondAttribute="trailing" constant="20" id="ioo-91-5WB"/>
+                <constraint firstItem="49Y-vj-Fuv" firstAttribute="top" secondItem="uBA-je-dRm" secondAttribute="bottom" constant="10" id="ngj-AI-h4K"/>
+                <constraint firstItem="zZh-nv-sNW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="oBi-4a-DB5"/>
+                <constraint firstItem="H5d-o4-gGQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="pt8-nf-kmi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="g2d-dA-upb" secondAttribute="trailing" constant="20" id="qcE-CJ-3p6"/>
+                <constraint firstItem="zZh-nv-sNW" firstAttribute="top" secondItem="Rkd-iY-Opl" secondAttribute="bottom" constant="4" id="qfM-Jk-rIV"/>
+                <constraint firstItem="5Xs-9Y-5tr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="sUL-1y-RCW"/>
+                <constraint firstItem="KBM-sx-bsF" firstAttribute="centerY" secondItem="U5V-NC-qxM" secondAttribute="centerY" id="sfX-30-p34"/>
+                <constraint firstItem="mcT-OX-A4u" firstAttribute="top" secondItem="3RF-16-H5L" secondAttribute="bottom" constant="10" id="tw0-eo-Fzt"/>
+                <constraint firstItem="cVK-p6-L39" firstAttribute="top" secondItem="g2d-dA-upb" secondAttribute="bottom" constant="10" id="u6L-hg-Nnf"/>
+                <constraint firstItem="zPW-Uf-Bfa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="ufC-DI-LCA"/>
+                <constraint firstItem="SoN-at-V09" firstAttribute="top" secondItem="eMu-9R-RMY" secondAttribute="bottom" constant="24" id="vOQ-io-StE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SoN-at-V09" secondAttribute="trailing" constant="20" id="wRu-sO-VUq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="H5d-o4-gGQ" secondAttribute="trailing" constant="20" id="wgt-Wo-bwd"/>
+                <constraint firstItem="evB-5c-eBf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="xkV-r5-Dqq"/>
+                <constraint firstItem="ODO-Iq-65P" firstAttribute="top" secondItem="49Y-vj-Fuv" secondAttribute="bottom" constant="10" id="yFn-bX-F2i"/>
+                <constraint firstItem="9rA-We-b01" firstAttribute="top" secondItem="evB-5c-eBf" secondAttribute="bottom" constant="11" id="zGn-jt-Zzi"/>
+            </constraints>
+            <point key="canvasLocation" x="67.938931297709928" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Avatar-Text" width="68" height="68"/>
+        <image name="icon left" width="32.333332061767578" height="32"/>
+        <image name="separator line" width="327" height="2"/>
+        <namedColor name="Blue Default">
+            <color red="0.18400000035762787" green="0.50999999046325684" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Neutral 10">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Neutral 60">
+            <color red="0.51800000667572021" green="0.58799999952316284" blue="0.68199998140335083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Neutral 70">
+            <color red="0.40799999237060547" green="0.46700000762939453" blue="0.55299997329711914" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

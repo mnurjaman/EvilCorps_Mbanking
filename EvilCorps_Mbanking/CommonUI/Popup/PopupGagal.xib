@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+        <array key="Satoshi-Regular.otf">
+            <string>Satoshi-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopupGagal" customModule="EvilCorps_Mbanking" customModuleProvider="target">
+            <connections>
+                <outlet property="btnClose" destination="m94-V2-wAq" id="VQx-L4-daD"/>
+                <outlet property="btnPopup" destination="m94-V2-wAq" id="HcA-Dr-FEg"/>
+                <outlet property="imgPopup" destination="Pgw-Tf-KVM" id="YzA-vL-Jg9"/>
+                <outlet property="lblDeskripsi" destination="EYc-3q-MWd" id="4L7-WJ-hPY"/>
+                <outlet property="viewContent" destination="F0u-WV-FIF" id="UrU-Bg-gWX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F0u-WV-FIF">
+                    <rect key="frame" x="29" y="249" width="335" height="379"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peringatan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTK-fv-8g2">
+                            <rect key="frame" x="15" y="18" width="305" height="22.666666666666671"/>
+                            <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="Pgw-Tf-KVM">
+                            <rect key="frame" x="127" y="77.666666666666686" width="81" height="81"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="81" id="LHB-TJ-5F9"/>
+                                <constraint firstAttribute="height" constant="81" id="wFb-P4-TjE"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYc-3q-MWd">
+                            <rect key="frame" x="15" y="178.66666666666669" width="305" height="76"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="76" id="22g-GM-g7K"/>
+                            </constraints>
+                            <string key="text">Maaf! Password yang kamu masukkan salah.
+Jika kamu melakukan kesalahan pada tiga kali percobaan dalam 24 jam maka akun kamu akan diblokir dan segera ke cabang terdekat</string>
+                            <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m94-V2-wAq">
+                            <rect key="frame" x="20" y="307" width="295" height="42"/>
+                            <color key="backgroundColor" name="AccentColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="TYN-o2-66r"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" name="Neutral 10"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Pgw-Tf-KVM" firstAttribute="top" secondItem="ZTK-fv-8g2" secondAttribute="bottom" constant="37" id="1py-ev-SEi"/>
+                        <constraint firstAttribute="trailing" secondItem="ZTK-fv-8g2" secondAttribute="trailing" constant="15" id="7u6-Lu-dE6"/>
+                        <constraint firstAttribute="height" constant="379" id="PDe-9x-qsm"/>
+                        <constraint firstItem="Pgw-Tf-KVM" firstAttribute="centerX" secondItem="F0u-WV-FIF" secondAttribute="centerX" id="PIi-Qy-cg7"/>
+                        <constraint firstAttribute="bottom" secondItem="m94-V2-wAq" secondAttribute="bottom" constant="30" id="SYi-vE-R3o"/>
+                        <constraint firstItem="EYc-3q-MWd" firstAttribute="leading" secondItem="F0u-WV-FIF" secondAttribute="leading" constant="15" id="T9l-GF-byO"/>
+                        <constraint firstItem="ZTK-fv-8g2" firstAttribute="top" secondItem="F0u-WV-FIF" secondAttribute="top" constant="18" id="XWF-e2-GjC"/>
+                        <constraint firstAttribute="trailing" secondItem="EYc-3q-MWd" secondAttribute="trailing" constant="15" id="d8K-Kj-Evf"/>
+                        <constraint firstItem="EYc-3q-MWd" firstAttribute="top" secondItem="Pgw-Tf-KVM" secondAttribute="bottom" constant="20" id="nf7-7r-ud1"/>
+                        <constraint firstItem="ZTK-fv-8g2" firstAttribute="leading" secondItem="F0u-WV-FIF" secondAttribute="leading" constant="15" id="o3A-Sq-hYo"/>
+                        <constraint firstAttribute="trailing" secondItem="m94-V2-wAq" secondAttribute="trailing" constant="20" id="tjS-Ad-yk5"/>
+                        <constraint firstItem="m94-V2-wAq" firstAttribute="leading" secondItem="F0u-WV-FIF" secondAttribute="leading" constant="20" id="uXP-V9-EOv"/>
+                        <constraint firstAttribute="width" constant="335" id="y9R-wY-uMv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="F0u-WV-FIF" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="mgt-n6-nTy"/>
+                <constraint firstItem="F0u-WV-FIF" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="vWc-Uq-xiF"/>
+            </constraints>
+            <point key="canvasLocation" x="72.51908396946564" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="x" width="81" height="81.333335876464844"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Neutral 10">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

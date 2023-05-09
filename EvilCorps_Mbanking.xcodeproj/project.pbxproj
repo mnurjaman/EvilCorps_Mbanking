@@ -7,15 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0C7CB82977B534009790C9 /* ResiTransaksi.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C7CB72977B534009790C9 /* ResiTransaksi.xib */; };
+		6D0C7CBA2977B53E009790C9 /* ResiTransaksi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C7CB92977B53E009790C9 /* ResiTransaksi.swift */; };
+		6D23414D297F124C00976B7A /* CellTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23414C297F124C00976B7A /* CellTransfer.swift */; };
+		6D23414F297F125500976B7A /* CellTransfer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D23414E297F125500976B7A /* CellTransfer.xib */; };
+		6D234152297F1CFE00976B7A /* Transfer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D234151297F1CFE00976B7A /* Transfer2.swift */; };
+		6D234154297F1D0800976B7A /* Transfer2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D234153297F1D0800976B7A /* Transfer2.xib */; };
+		6D234157297F21EE00976B7A /* KonfirmTransfer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D234156297F21EE00976B7A /* KonfirmTransfer.xib */; };
+		6D234159297F21F900976B7A /* KonfirmTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D234158297F21F900976B7A /* KonfirmTransfer.swift */; };
+		6D23415C297F223700976B7A /* Mpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23415B297F223700976B7A /* Mpin.swift */; };
+		6D23415E297F224000976B7A /* Mpin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D23415D297F224000976B7A /* Mpin.xib */; };
+		6D234162297F4B3700976B7A /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D234161297F4B3700976B7A /* EditProfile.swift */; };
+		6D234164297F4B4100976B7A /* EditProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D234163297F4B4100976B7A /* EditProfile.xib */; };
+		6D234169297F506600976B7A /* EditMpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D234168297F506600976B7A /* EditMpin.swift */; };
+		6D23416B297F509C00976B7A /* EditMpin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D23416A297F509C00976B7A /* EditMpin.xib */; };
+		6D23416D297F50BD00976B7A /* EditPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23416C297F50BD00976B7A /* EditPassword.swift */; };
+		6D23416F297F50D400976B7A /* EditUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23416E297F50D400976B7A /* EditUsername.swift */; };
+		6D234171297F50F300976B7A /* EditPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D234170297F50F300976B7A /* EditPassword.xib */; };
+		6D234173297F50FF00976B7A /* EditUsername.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D234172297F50FF00976B7A /* EditUsername.xib */; };
+		6D2839BC297D719600A53A5D /* NewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2839BB297D719600A53A5D /* NewPassword.swift */; };
+		6D2839BE297D71A900A53A5D /* NewPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D2839BD297D71A900A53A5D /* NewPassword.xib */; };
+		6D2839C1297D8C8700A53A5D /* NewUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2839C0297D8C8700A53A5D /* NewUsername.swift */; };
+		6D2839C3297D8C9400A53A5D /* NewUsername.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D2839C2297D8C9400A53A5D /* NewUsername.xib */; };
 		6D4FB31E29595E2700D98B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FB31D29595E2700D98B21 /* AppDelegate.swift */; };
 		6D4FB32029595E2700D98B21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FB31F29595E2700D98B21 /* SceneDelegate.swift */; };
 		6D4FB32229595E2700D98B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FB32129595E2700D98B21 /* ViewController.swift */; };
 		6D4FB32529595E2700D98B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB32329595E2700D98B21 /* Main.storyboard */; };
 		6D4FB32729595E2900D98B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB32629595E2900D98B21 /* Assets.xcassets */; };
 		6D4FB32A29595E2900D98B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB32829595E2900D98B21 /* LaunchScreen.storyboard */; };
+		6D4FB33229595EFA00D98B21 /* PendaftaranAkun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FB33129595EFA00D98B21 /* PendaftaranAkun.swift */; };
+		6D4FB33429595F4600D98B21 /* PendaftaranAkun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB33329595F4600D98B21 /* PendaftaranAkun.xib */; };
+		6D4FB34729596C5F00D98B21 /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB33B29596C5F00D98B21 /* Satoshi-Regular.otf */; };
+		6D4FB34829596C5F00D98B21 /* Satoshi-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB33C29596C5F00D98B21 /* Satoshi-Variable.ttf */; };
+		6D4FB34929596C5F00D98B21 /* Satoshi-VariableItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB33D29596C5F00D98B21 /* Satoshi-VariableItalic.ttf */; };
+		6D4FB34A29596C5F00D98B21 /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB33E29596C5F00D98B21 /* Satoshi-Black.otf */; };
+		6D4FB34B29596C5F00D98B21 /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB33F29596C5F00D98B21 /* Satoshi-BlackItalic.otf */; };
+		6D4FB34C29596C5F00D98B21 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB34029596C5F00D98B21 /* Satoshi-Medium.otf */; };
+		6D4FB34D29596C5F00D98B21 /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB34129596C5F00D98B21 /* Satoshi-Light.otf */; };
+		6D4FB34E29596C5F00D98B21 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB34229596C5F00D98B21 /* Satoshi-Bold.otf */; };
+		6D4FB34F29596C5F00D98B21 /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB34329596C5F00D98B21 /* Satoshi-LightItalic.otf */; };
+		6D4FB35029596C5F00D98B21 /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB34429596C5F00D98B21 /* Satoshi-Italic.otf */; };
+		6D4FB35129596C5F00D98B21 /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB34529596C5F00D98B21 /* Satoshi-BoldItalic.otf */; };
+		6D4FB35229596C5F00D98B21 /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB34629596C5F00D98B21 /* Satoshi-MediumItalic.otf */; };
+		6D4FB3552959972B00D98B21 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FB3542959972B00D98B21 /* Login.swift */; };
+		6D4FB3572959975E00D98B21 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FB3562959975E00D98B21 /* Login.xib */; };
+		6D4FDE0E297E427800B73A5C /* CellList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FDE0D297E427800B73A5C /* CellList.swift */; };
+		6D4FDE10297E428100B73A5C /* CellList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FDE0F297E428100B73A5C /* CellList.xib */; };
+		6D4FDE13297E49E900B73A5C /* CellMutasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FDE12297E49E900B73A5C /* CellMutasi.swift */; };
+		6D4FDE15297E49F200B73A5C /* CellMutasi.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FDE14297E49F200B73A5C /* CellMutasi.xib */; };
+		6D4FDE1D297F0A6500B73A5C /* TransferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4FDE1C297F0A6500B73A5C /* TransferVC.swift */; };
+		6D4FDE1F297F0A7000B73A5C /* TransferVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4FDE1E297F0A7000B73A5C /* TransferVC.xib */; };
+		6D644805295A08ED00BB664D /* LupaPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D644804295A08ED00BB664D /* LupaPassword.swift */; };
+		6D644808295A093700BB664D /* LupaAkun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D644807295A093700BB664D /* LupaAkun.swift */; };
+		6D64480A295A094B00BB664D /* LupaUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D644809295A094B00BB664D /* LupaUsername.swift */; };
+		6D64480C295A095800BB664D /* LupaAkun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D64480B295A095800BB664D /* LupaAkun.xib */; };
+		6D644810295A097500BB664D /* LupaUsername.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D64480F295A097500BB664D /* LupaUsername.xib */; };
+		6D9244EA297D24AF006CF951 /* Onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9244E9297D24AF006CF951 /* Onboarding2.swift */; };
+		6D9244EC297D24BB006CF951 /* Onboarding2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D9244EB297D24BB006CF951 /* Onboarding2.xib */; };
+		6D9244EE297D293F006CF951 /* Onboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9244ED297D293F006CF951 /* Onboarding3.swift */; };
+		6D9244F0297D294C006CF951 /* Onboarding3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D9244EF297D294C006CF951 /* Onboarding3.xib */; };
+		6DB1D3DD295BDD36004D6BEE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1D3DC295BDD36004D6BEE /* Extension.swift */; };
+		6DC05E7E297111E1006E7559 /* BerandaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC05E7D297111E1006E7559 /* BerandaVC.xib */; };
+		6DC05E8029711216006E7559 /* BerandaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC05E7F29711216006E7559 /* BerandaVC.swift */; };
+		6DC05E8629711469006E7559 /* MutasiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC05E8529711469006E7559 /* MutasiVC.swift */; };
+		6DC05E882971148D006E7559 /* MutasiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC05E872971148D006E7559 /* MutasiVC.xib */; };
+		6DC05E8A29711501006E7559 /* ProfilVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC05E8929711501006E7559 /* ProfilVC.xib */; };
+		6DC05E8C2971150C006E7559 /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC05E8B2971150C006E7559 /* ProfilVC.swift */; };
+		6DC05E8E2971154B006E7559 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC05E8D2971154B006E7559 /* HistoryVC.swift */; };
+		6DC05E9029711556006E7559 /* HistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC05E8F29711556006E7559 /* HistoryVC.xib */; };
+		6DC05E9229712A91006E7559 /* TabbarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC05E9129712A91006E7559 /* TabbarVC.xib */; };
+		6DC5B3FF297928DA00C807FA /* NotifikasiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5B3FE297928DA00C807FA /* NotifikasiVC.swift */; };
+		6DC5B401297928E400C807FA /* NotifikasiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC5B400297928E400C807FA /* NotifikasiVC.xib */; };
+		6DD1A371297FF706002200FC /* CellNotif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1A370297FF706002200FC /* CellNotif.swift */; };
+		6DD1A373297FF70F002200FC /* CellNotif.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD1A372297FF70F002200FC /* CellNotif.xib */; };
+		6DD34ACC295BF2BA00C70AD8 /* PopupSukses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD34ACB295BF2BA00C70AD8 /* PopupSukses.swift */; };
+		6DD7D2082964846100EB8062 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7D2072964846100EB8062 /* Onboarding.swift */; };
+		6DD7D20A2964846B00EB8062 /* Onboarding.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD7D2092964846B00EB8062 /* Onboarding.xib */; };
+		6DDDF690295A8D6C00791453 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5DAA5F295A8CE200ACD886 /* Alamofire.xcframework */; };
+		6DDDF691295A8D6C00791453 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5DAA5F295A8CE200ACD886 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DE35CD8296EB15C003AD676 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE35CD7296EB15C003AD676 /* TabbarVC.swift */; };
+		6DE7A38A295BF348006B29AC /* PopupSukses.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DE7A389295BF348006B29AC /* PopupSukses.xib */; };
+		6DE7A38C295C0B5C006B29AC /* PopupGagal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DE7A38B295C0B5C006B29AC /* PopupGagal.xib */; };
+		6DE7A38E295C0B71006B29AC /* PopupGagal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7A38D295C0B71006B29AC /* PopupGagal.swift */; };
+		6DF51996295A09F6006BA351 /* LupaPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF51995295A09F6006BA351 /* LupaPassword.xib */; };
+		6DF5199B295A0A65006BA351 /* AktivasiAkun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5199A295A0A65006BA351 /* AktivasiAkun.swift */; };
+		6DF5199D295A0A72006BA351 /* AktivasiAkun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF5199C295A0A72006BA351 /* AktivasiAkun.xib */; };
+		6DF5199F295A0A7C006BA351 /* BuatMpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5199E295A0A7C006BA351 /* BuatMpin.swift */; };
+		6DF519A1295A0A87006BA351 /* BuatMpin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF519A0295A0A87006BA351 /* BuatMpin.xib */; };
+		6DFEF1A4296BD4FF004FA3CC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF1A3296BD4FF004FA3CC /* APIManager.swift */; };
+		6DFEF1A8296BD5EC004FA3CC /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF1A7296BD5EC004FA3CC /* RegisterModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6DDDF692295A8D6C00791453 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6DDDF691295A8D6C00791453 /* Alamofire.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6D0C7CB72977B534009790C9 /* ResiTransaksi.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResiTransaksi.xib; sourceTree = "<group>"; };
+		6D0C7CB92977B53E009790C9 /* ResiTransaksi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResiTransaksi.swift; sourceTree = "<group>"; };
+		6D23414C297F124C00976B7A /* CellTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTransfer.swift; sourceTree = "<group>"; };
+		6D23414E297F125500976B7A /* CellTransfer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTransfer.xib; sourceTree = "<group>"; };
+		6D234151297F1CFE00976B7A /* Transfer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transfer2.swift; sourceTree = "<group>"; };
+		6D234153297F1D0800976B7A /* Transfer2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Transfer2.xib; sourceTree = "<group>"; };
+		6D234156297F21EE00976B7A /* KonfirmTransfer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KonfirmTransfer.xib; sourceTree = "<group>"; };
+		6D234158297F21F900976B7A /* KonfirmTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonfirmTransfer.swift; sourceTree = "<group>"; };
+		6D23415B297F223700976B7A /* Mpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mpin.swift; sourceTree = "<group>"; };
+		6D23415D297F224000976B7A /* Mpin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Mpin.xib; sourceTree = "<group>"; };
+		6D234161297F4B3700976B7A /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		6D234163297F4B4100976B7A /* EditProfile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfile.xib; sourceTree = "<group>"; };
+		6D234168297F506600976B7A /* EditMpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMpin.swift; sourceTree = "<group>"; };
+		6D23416A297F509C00976B7A /* EditMpin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditMpin.xib; sourceTree = "<group>"; };
+		6D23416C297F50BD00976B7A /* EditPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPassword.swift; sourceTree = "<group>"; };
+		6D23416E297F50D400976B7A /* EditUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUsername.swift; sourceTree = "<group>"; };
+		6D234170297F50F300976B7A /* EditPassword.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPassword.xib; sourceTree = "<group>"; };
+		6D234172297F50FF00976B7A /* EditUsername.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditUsername.xib; sourceTree = "<group>"; };
+		6D2839BB297D719600A53A5D /* NewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPassword.swift; sourceTree = "<group>"; };
+		6D2839BD297D71A900A53A5D /* NewPassword.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewPassword.xib; sourceTree = "<group>"; };
+		6D2839C0297D8C8700A53A5D /* NewUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUsername.swift; sourceTree = "<group>"; };
+		6D2839C2297D8C9400A53A5D /* NewUsername.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewUsername.xib; sourceTree = "<group>"; };
 		6D4FB31A29595E2700D98B21 /* EvilCorps_Mbanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvilCorps_Mbanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4FB31D29595E2700D98B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D4FB31F29595E2700D98B21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +143,66 @@
 		6D4FB32629595E2900D98B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D4FB32929595E2900D98B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D4FB32B29595E2900D98B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4FB33129595EFA00D98B21 /* PendaftaranAkun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendaftaranAkun.swift; sourceTree = "<group>"; };
+		6D4FB33329595F4600D98B21 /* PendaftaranAkun.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PendaftaranAkun.xib; sourceTree = "<group>"; };
+		6D4FB33B29596C5F00D98B21 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		6D4FB33C29596C5F00D98B21 /* Satoshi-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Variable.ttf"; sourceTree = "<group>"; };
+		6D4FB33D29596C5F00D98B21 /* Satoshi-VariableItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-VariableItalic.ttf"; sourceTree = "<group>"; };
+		6D4FB33E29596C5F00D98B21 /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
+		6D4FB33F29596C5F00D98B21 /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
+		6D4FB34029596C5F00D98B21 /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		6D4FB34129596C5F00D98B21 /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.otf"; sourceTree = "<group>"; };
+		6D4FB34229596C5F00D98B21 /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		6D4FB34329596C5F00D98B21 /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		6D4FB34429596C5F00D98B21 /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		6D4FB34529596C5F00D98B21 /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		6D4FB34629596C5F00D98B21 /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		6D4FB3542959972B00D98B21 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		6D4FB3562959975E00D98B21 /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		6D4FDE0D297E427800B73A5C /* CellList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellList.swift; sourceTree = "<group>"; };
+		6D4FDE0F297E428100B73A5C /* CellList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellList.xib; sourceTree = "<group>"; };
+		6D4FDE12297E49E900B73A5C /* CellMutasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMutasi.swift; sourceTree = "<group>"; };
+		6D4FDE14297E49F200B73A5C /* CellMutasi.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMutasi.xib; sourceTree = "<group>"; };
+		6D4FDE1C297F0A6500B73A5C /* TransferVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferVC.swift; sourceTree = "<group>"; };
+		6D4FDE1E297F0A7000B73A5C /* TransferVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferVC.xib; sourceTree = "<group>"; };
+		6D5DAA5F295A8CE200ACD886 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		6D644804295A08ED00BB664D /* LupaPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LupaPassword.swift; sourceTree = "<group>"; };
+		6D644807295A093700BB664D /* LupaAkun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LupaAkun.swift; sourceTree = "<group>"; };
+		6D644809295A094B00BB664D /* LupaUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LupaUsername.swift; sourceTree = "<group>"; };
+		6D64480B295A095800BB664D /* LupaAkun.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LupaAkun.xib; sourceTree = "<group>"; };
+		6D64480F295A097500BB664D /* LupaUsername.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LupaUsername.xib; sourceTree = "<group>"; };
+		6D9244E9297D24AF006CF951 /* Onboarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2.swift; sourceTree = "<group>"; };
+		6D9244EB297D24BB006CF951 /* Onboarding2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Onboarding2.xib; sourceTree = "<group>"; };
+		6D9244ED297D293F006CF951 /* Onboarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding3.swift; sourceTree = "<group>"; };
+		6D9244EF297D294C006CF951 /* Onboarding3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Onboarding3.xib; sourceTree = "<group>"; };
+		6DB1D3DC295BDD36004D6BEE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		6DC05E7D297111E1006E7559 /* BerandaVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BerandaVC.xib; sourceTree = "<group>"; };
+		6DC05E7F29711216006E7559 /* BerandaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerandaVC.swift; sourceTree = "<group>"; };
+		6DC05E8529711469006E7559 /* MutasiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutasiVC.swift; sourceTree = "<group>"; };
+		6DC05E872971148D006E7559 /* MutasiVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MutasiVC.xib; sourceTree = "<group>"; };
+		6DC05E8929711501006E7559 /* ProfilVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfilVC.xib; sourceTree = "<group>"; };
+		6DC05E8B2971150C006E7559 /* ProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6DC05E8D2971154B006E7559 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		6DC05E8F29711556006E7559 /* HistoryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryVC.xib; sourceTree = "<group>"; };
+		6DC05E9129712A91006E7559 /* TabbarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarVC.xib; sourceTree = "<group>"; };
+		6DC5B3FE297928DA00C807FA /* NotifikasiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifikasiVC.swift; sourceTree = "<group>"; };
+		6DC5B400297928E400C807FA /* NotifikasiVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotifikasiVC.xib; sourceTree = "<group>"; };
+		6DD1A370297FF706002200FC /* CellNotif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellNotif.swift; sourceTree = "<group>"; };
+		6DD1A372297FF70F002200FC /* CellNotif.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellNotif.xib; sourceTree = "<group>"; };
+		6DD34ACB295BF2BA00C70AD8 /* PopupSukses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupSukses.swift; sourceTree = "<group>"; };
+		6DD7D2072964846100EB8062 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		6DD7D2092964846B00EB8062 /* Onboarding.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Onboarding.xib; sourceTree = "<group>"; };
+		6DE35CD7296EB15C003AD676 /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		6DE7A389295BF348006B29AC /* PopupSukses.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupSukses.xib; sourceTree = "<group>"; };
+		6DE7A38B295C0B5C006B29AC /* PopupGagal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupGagal.xib; sourceTree = "<group>"; };
+		6DE7A38D295C0B71006B29AC /* PopupGagal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupGagal.swift; sourceTree = "<group>"; };
+		6DF51995295A09F6006BA351 /* LupaPassword.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LupaPassword.xib; sourceTree = "<group>"; };
+		6DF5199A295A0A65006BA351 /* AktivasiAkun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AktivasiAkun.swift; sourceTree = "<group>"; };
+		6DF5199C295A0A72006BA351 /* AktivasiAkun.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AktivasiAkun.xib; sourceTree = "<group>"; };
+		6DF5199E295A0A7C006BA351 /* BuatMpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuatMpin.swift; sourceTree = "<group>"; };
+		6DF519A0295A0A87006BA351 /* BuatMpin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuatMpin.xib; sourceTree = "<group>"; };
+		6DFEF1A3296BD4FF004FA3CC /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		6DFEF1A7296BD5EC004FA3CC /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +210,132 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDDF690295A8D6C00791453 /* Alamofire.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D0C7CB62977B50E009790C9 /* ResiTransaksi */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C7CB72977B534009790C9 /* ResiTransaksi.xib */,
+				6D0C7CB92977B53E009790C9 /* ResiTransaksi.swift */,
+			);
+			path = ResiTransaksi;
+			sourceTree = "<group>";
+		};
+		6D23414B297F123C00976B7A /* CellTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				6D23414C297F124C00976B7A /* CellTransfer.swift */,
+				6D23414E297F125500976B7A /* CellTransfer.xib */,
+			);
+			path = CellTransfer;
+			sourceTree = "<group>";
+		};
+		6D234150297F1CF000976B7A /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				6D23415A297F222A00976B7A /* Mpin */,
+				6D234155297F21D900976B7A /* KonfirmTransfer */,
+				6D234151297F1CFE00976B7A /* Transfer2.swift */,
+				6D234153297F1D0800976B7A /* Transfer2.xib */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		6D234155297F21D900976B7A /* KonfirmTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				6D234156297F21EE00976B7A /* KonfirmTransfer.xib */,
+				6D234158297F21F900976B7A /* KonfirmTransfer.swift */,
+			);
+			path = KonfirmTransfer;
+			sourceTree = "<group>";
+		};
+		6D23415A297F222A00976B7A /* Mpin */ = {
+			isa = PBXGroup;
+			children = (
+				6D23415B297F223700976B7A /* Mpin.swift */,
+				6D23415D297F224000976B7A /* Mpin.xib */,
+			);
+			path = Mpin;
+			sourceTree = "<group>";
+		};
+		6D234160297F4B1C00976B7A /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				6D234161297F4B3700976B7A /* EditProfile.swift */,
+				6D234163297F4B4100976B7A /* EditProfile.xib */,
+				6D234167297F4B6A00976B7A /* EditMpin */,
+				6D234166297F4B6000976B7A /* EditPassword */,
+				6D234165297F4B5800976B7A /* EditUsername */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		6D234165297F4B5800976B7A /* EditUsername */ = {
+			isa = PBXGroup;
+			children = (
+				6D23416E297F50D400976B7A /* EditUsername.swift */,
+				6D234172297F50FF00976B7A /* EditUsername.xib */,
+			);
+			path = EditUsername;
+			sourceTree = "<group>";
+		};
+		6D234166297F4B6000976B7A /* EditPassword */ = {
+			isa = PBXGroup;
+			children = (
+				6D23416C297F50BD00976B7A /* EditPassword.swift */,
+				6D234170297F50F300976B7A /* EditPassword.xib */,
+			);
+			path = EditPassword;
+			sourceTree = "<group>";
+		};
+		6D234167297F4B6A00976B7A /* EditMpin */ = {
+			isa = PBXGroup;
+			children = (
+				6D234168297F506600976B7A /* EditMpin.swift */,
+				6D23416A297F509C00976B7A /* EditMpin.xib */,
+			);
+			path = EditMpin;
+			sourceTree = "<group>";
+		};
+		6D2839BA297D717100A53A5D /* NewPassword */ = {
+			isa = PBXGroup;
+			children = (
+				6D2839BB297D719600A53A5D /* NewPassword.swift */,
+				6D2839BD297D71A900A53A5D /* NewPassword.xib */,
+			);
+			path = NewPassword;
+			sourceTree = "<group>";
+		};
+		6D2839BF297D8C7000A53A5D /* NewUsername */ = {
+			isa = PBXGroup;
+			children = (
+				6D2839C0297D8C8700A53A5D /* NewUsername.swift */,
+				6D2839C2297D8C9400A53A5D /* NewUsername.xib */,
+			);
+			path = NewUsername;
+			sourceTree = "<group>";
+		};
+		6D2839C4297E376100A53A5D /* CellRiwayat */ = {
+			isa = PBXGroup;
+			children = (
+				6D4FDE0D297E427800B73A5C /* CellList.swift */,
+				6D4FDE0F297E428100B73A5C /* CellList.xib */,
+			);
+			path = CellRiwayat;
+			sourceTree = "<group>";
+		};
 		6D4FB31129595E2700D98B21 = {
 			isa = PBXGroup;
 			children = (
 				6D4FB31C29595E2700D98B21 /* EvilCorps_Mbanking */,
 				6D4FB31B29595E2700D98B21 /* Products */,
+				6D5DAA3B295A897900ACD886 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +350,343 @@
 		6D4FB31C29595E2700D98B21 /* EvilCorps_Mbanking */ = {
 			isa = PBXGroup;
 			children = (
+				6DB1D3DB295BDD21004D6BEE /* Extension */,
+				6D4FB3382959646400D98B21 /* Moduls */,
+				6D4FB3372959645600D98B21 /* Resources */,
+				6D4FB3362959644E00D98B21 /* Network */,
+				6D4FB3352959644400D98B21 /* CommonUI */,
 				6D4FB31D29595E2700D98B21 /* AppDelegate.swift */,
 				6D4FB31F29595E2700D98B21 /* SceneDelegate.swift */,
 				6D4FB32129595E2700D98B21 /* ViewController.swift */,
 				6D4FB32329595E2700D98B21 /* Main.storyboard */,
-				6D4FB32629595E2900D98B21 /* Assets.xcassets */,
 				6D4FB32829595E2900D98B21 /* LaunchScreen.storyboard */,
 				6D4FB32B29595E2900D98B21 /* Info.plist */,
 			);
 			path = EvilCorps_Mbanking;
+			sourceTree = "<group>";
+		};
+		6D4FB3352959644400D98B21 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5B3F9297925D500C807FA /* TableCell */,
+				6DD34ACF295BF2CB00C70AD8 /* Popup */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		6D4FB3362959644E00D98B21 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6DFEF1A6296BD5DD004FA3CC /* RegisterModel */,
+				6DFEF1A5296BD547004FA3CC /* APIManager */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6D4FB3372959645600D98B21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D4FB32629595E2900D98B21 /* Assets.xcassets */,
+				6D4FB33A29596C4200D98B21 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D4FB3382959646400D98B21 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				6DE35CD6296EB0A6003AD676 /* Homepage */,
+				6DD7D2062964845300EB8062 /* Onboarding */,
+				6DF51997295A0A1C006BA351 /* DaftarAkun */,
+				6D644806295A091800BB664D /* LupaAkun&Password */,
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		6D4FB3392959685000D98B21 /* Pendaftaran Akun */ = {
+			isa = PBXGroup;
+			children = (
+				6D4FB33129595EFA00D98B21 /* PendaftaranAkun.swift */,
+				6D4FB33329595F4600D98B21 /* PendaftaranAkun.xib */,
+			);
+			path = "Pendaftaran Akun";
+			sourceTree = "<group>";
+		};
+		6D4FB33A29596C4200D98B21 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6D4FB33E29596C5F00D98B21 /* Satoshi-Black.otf */,
+				6D4FB33F29596C5F00D98B21 /* Satoshi-BlackItalic.otf */,
+				6D4FB34229596C5F00D98B21 /* Satoshi-Bold.otf */,
+				6D4FB34529596C5F00D98B21 /* Satoshi-BoldItalic.otf */,
+				6D4FB34429596C5F00D98B21 /* Satoshi-Italic.otf */,
+				6D4FB34129596C5F00D98B21 /* Satoshi-Light.otf */,
+				6D4FB34329596C5F00D98B21 /* Satoshi-LightItalic.otf */,
+				6D4FB34029596C5F00D98B21 /* Satoshi-Medium.otf */,
+				6D4FB34629596C5F00D98B21 /* Satoshi-MediumItalic.otf */,
+				6D4FB33B29596C5F00D98B21 /* Satoshi-Regular.otf */,
+				6D4FB33C29596C5F00D98B21 /* Satoshi-Variable.ttf */,
+				6D4FB33D29596C5F00D98B21 /* Satoshi-VariableItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6D4FB3532959971C00D98B21 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6D4FB3542959972B00D98B21 /* Login.swift */,
+				6D4FB3562959975E00D98B21 /* Login.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6D4FDE11297E490D00B73A5C /* CellMutasi */ = {
+			isa = PBXGroup;
+			children = (
+				6D4FDE12297E49E900B73A5C /* CellMutasi.swift */,
+				6D4FDE14297E49F200B73A5C /* CellMutasi.xib */,
+			);
+			path = CellMutasi;
+			sourceTree = "<group>";
+		};
+		6D4FDE1B297F0A4C00B73A5C /* TransaksiTerakhirVC */ = {
+			isa = PBXGroup;
+			children = (
+				6D234150297F1CF000976B7A /* Transfer */,
+				6D4FDE1C297F0A6500B73A5C /* TransferVC.swift */,
+				6D4FDE1E297F0A7000B73A5C /* TransferVC.xib */,
+			);
+			path = TransaksiTerakhirVC;
+			sourceTree = "<group>";
+		};
+		6D5DAA3B295A897900ACD886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DAA5F295A8CE200ACD886 /* Alamofire.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D644806295A091800BB664D /* LupaAkun&Password */ = {
+			isa = PBXGroup;
+			children = (
+				6D644811295A099900BB664D /* Lupa Akun */,
+				6D644813295A09BA00BB664D /* Lupa Password */,
+				6D644812295A09A900BB664D /* Lupa Username */,
+			);
+			path = "LupaAkun&Password";
+			sourceTree = "<group>";
+		};
+		6D644811295A099900BB664D /* Lupa Akun */ = {
+			isa = PBXGroup;
+			children = (
+				6D644807295A093700BB664D /* LupaAkun.swift */,
+				6D64480B295A095800BB664D /* LupaAkun.xib */,
+			);
+			path = "Lupa Akun";
+			sourceTree = "<group>";
+		};
+		6D644812295A09A900BB664D /* Lupa Username */ = {
+			isa = PBXGroup;
+			children = (
+				6D2839BF297D8C7000A53A5D /* NewUsername */,
+				6D644809295A094B00BB664D /* LupaUsername.swift */,
+				6D64480F295A097500BB664D /* LupaUsername.xib */,
+			);
+			path = "Lupa Username";
+			sourceTree = "<group>";
+		};
+		6D644813295A09BA00BB664D /* Lupa Password */ = {
+			isa = PBXGroup;
+			children = (
+				6D2839BA297D717100A53A5D /* NewPassword */,
+				6D644804295A08ED00BB664D /* LupaPassword.swift */,
+				6DF51995295A09F6006BA351 /* LupaPassword.xib */,
+			);
+			path = "Lupa Password";
+			sourceTree = "<group>";
+		};
+		6D9244E0297D2120006CF951 /* OnBoarding1 */ = {
+			isa = PBXGroup;
+			children = (
+				6DD7D2072964846100EB8062 /* Onboarding.swift */,
+				6DD7D2092964846B00EB8062 /* Onboarding.xib */,
+			);
+			path = OnBoarding1;
+			sourceTree = "<group>";
+		};
+		6D9244E3297D2154006CF951 /* OnBoarding3 */ = {
+			isa = PBXGroup;
+			children = (
+				6D9244ED297D293F006CF951 /* Onboarding3.swift */,
+				6D9244EF297D294C006CF951 /* Onboarding3.xib */,
+			);
+			path = OnBoarding3;
+			sourceTree = "<group>";
+		};
+		6D9244E8297D2498006CF951 /* OnBoarding2 */ = {
+			isa = PBXGroup;
+			children = (
+				6D9244E9297D24AF006CF951 /* Onboarding2.swift */,
+				6D9244EB297D24BB006CF951 /* Onboarding2.xib */,
+			);
+			path = OnBoarding2;
+			sourceTree = "<group>";
+		};
+		6DB1D3DB295BDD21004D6BEE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6DB1D3DC295BDD36004D6BEE /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6DC05E8129711416006E7559 /* Beranda */ = {
+			isa = PBXGroup;
+			children = (
+				6D4FDE1B297F0A4C00B73A5C /* TransaksiTerakhirVC */,
+				6DC05E7D297111E1006E7559 /* BerandaVC.xib */,
+				6DC05E7F29711216006E7559 /* BerandaVC.swift */,
+			);
+			path = Beranda;
+			sourceTree = "<group>";
+		};
+		6DC05E8229711421006E7559 /* Mutasi */ = {
+			isa = PBXGroup;
+			children = (
+				6DC05E8529711469006E7559 /* MutasiVC.swift */,
+				6DC05E872971148D006E7559 /* MutasiVC.xib */,
+			);
+			path = Mutasi;
+			sourceTree = "<group>";
+		};
+		6DC05E832971142A006E7559 /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				6D234160297F4B1C00976B7A /* EditProfile */,
+				6DC05E8929711501006E7559 /* ProfilVC.xib */,
+				6DC05E8B2971150C006E7559 /* ProfilVC.swift */,
+			);
+			path = Profil;
+			sourceTree = "<group>";
+		};
+		6DC05E8429711432006E7559 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				6DC05E8D2971154B006E7559 /* HistoryVC.swift */,
+				6DC05E8F29711556006E7559 /* HistoryVC.xib */,
+				6D0C7CB62977B50E009790C9 /* ResiTransaksi */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		6DC5B3F429791FEB00C807FA /* Notifikasi */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5B3FE297928DA00C807FA /* NotifikasiVC.swift */,
+				6DC5B400297928E400C807FA /* NotifikasiVC.xib */,
+			);
+			path = Notifikasi;
+			sourceTree = "<group>";
+		};
+		6DC5B3F9297925D500C807FA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				6DD1A36F297FF6F7002200FC /* CellNotif */,
+				6D23414B297F123C00976B7A /* CellTransfer */,
+				6D4FDE11297E490D00B73A5C /* CellMutasi */,
+				6D2839C4297E376100A53A5D /* CellRiwayat */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		6DD1A36F297FF6F7002200FC /* CellNotif */ = {
+			isa = PBXGroup;
+			children = (
+				6DD1A370297FF706002200FC /* CellNotif.swift */,
+				6DD1A372297FF70F002200FC /* CellNotif.xib */,
+			);
+			path = CellNotif;
+			sourceTree = "<group>";
+		};
+		6DD34ACF295BF2CB00C70AD8 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				6DD34ACB295BF2BA00C70AD8 /* PopupSukses.swift */,
+				6DE7A389295BF348006B29AC /* PopupSukses.xib */,
+				6DE7A38B295C0B5C006B29AC /* PopupGagal.xib */,
+				6DE7A38D295C0B71006B29AC /* PopupGagal.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		6DD7D2062964845300EB8062 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6D9244E0297D2120006CF951 /* OnBoarding1 */,
+				6D9244E8297D2498006CF951 /* OnBoarding2 */,
+				6D9244E3297D2154006CF951 /* OnBoarding3 */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		6DE35CD6296EB0A6003AD676 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5B3F429791FEB00C807FA /* Notifikasi */,
+				6DE35CD7296EB15C003AD676 /* TabbarVC.swift */,
+				6DC05E9129712A91006E7559 /* TabbarVC.xib */,
+				6DC05E8129711416006E7559 /* Beranda */,
+				6DC05E8229711421006E7559 /* Mutasi */,
+				6DC05E8429711432006E7559 /* History */,
+				6DC05E832971142A006E7559 /* Profil */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		6DF51997295A0A1C006BA351 /* DaftarAkun */ = {
+			isa = PBXGroup;
+			children = (
+				6D4FB3532959971C00D98B21 /* Login */,
+				6D4FB3392959685000D98B21 /* Pendaftaran Akun */,
+				6DF51998295A0A3D006BA351 /* Aktivasi Akun */,
+				6DF51999295A0A46006BA351 /* Buat MPIN */,
+			);
+			path = DaftarAkun;
+			sourceTree = "<group>";
+		};
+		6DF51998295A0A3D006BA351 /* Aktivasi Akun */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5199A295A0A65006BA351 /* AktivasiAkun.swift */,
+				6DF5199C295A0A72006BA351 /* AktivasiAkun.xib */,
+			);
+			path = "Aktivasi Akun";
+			sourceTree = "<group>";
+		};
+		6DF51999295A0A46006BA351 /* Buat MPIN */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5199E295A0A7C006BA351 /* BuatMpin.swift */,
+				6DF519A0295A0A87006BA351 /* BuatMpin.xib */,
+			);
+			path = "Buat MPIN";
+			sourceTree = "<group>";
+		};
+		6DFEF1A5296BD547004FA3CC /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				6DFEF1A3296BD4FF004FA3CC /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		6DFEF1A6296BD5DD004FA3CC /* RegisterModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DFEF1A7296BD5EC004FA3CC /* RegisterModel.swift */,
+			);
+			path = RegisterModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +699,7 @@
 				6D4FB31629595E2700D98B21 /* Sources */,
 				6D4FB31729595E2700D98B21 /* Frameworks */,
 				6D4FB31829595E2700D98B21 /* Resources */,
+				6DDDF692295A8D6C00791453 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +734,8 @@
 				Base,
 			);
 			mainGroup = 6D4FB31129595E2700D98B21;
+			packageReferences = (
+			);
 			productRefGroup = 6D4FB31B29595E2700D98B21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +750,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4FB34E29596C5F00D98B21 /* Satoshi-Bold.otf in Resources */,
+				6DC05E9029711556006E7559 /* HistoryVC.xib in Resources */,
+				6D234157297F21EE00976B7A /* KonfirmTransfer.xib in Resources */,
+				6D23416B297F509C00976B7A /* EditMpin.xib in Resources */,
+				6D4FB34729596C5F00D98B21 /* Satoshi-Regular.otf in Resources */,
+				6D234171297F50F300976B7A /* EditPassword.xib in Resources */,
+				6DC05E8A29711501006E7559 /* ProfilVC.xib in Resources */,
+				6D234173297F50FF00976B7A /* EditUsername.xib in Resources */,
+				6D234154297F1D0800976B7A /* Transfer2.xib in Resources */,
+				6D4FB3572959975E00D98B21 /* Login.xib in Resources */,
+				6D4FB34B29596C5F00D98B21 /* Satoshi-BlackItalic.otf in Resources */,
+				6DD7D20A2964846B00EB8062 /* Onboarding.xib in Resources */,
+				6DF519A1295A0A87006BA351 /* BuatMpin.xib in Resources */,
+				6D23414F297F125500976B7A /* CellTransfer.xib in Resources */,
+				6D4FB35029596C5F00D98B21 /* Satoshi-Italic.otf in Resources */,
+				6D234164297F4B4100976B7A /* EditProfile.xib in Resources */,
+				6DE7A38A295BF348006B29AC /* PopupSukses.xib in Resources */,
+				6DE7A38C295C0B5C006B29AC /* PopupGagal.xib in Resources */,
+				6D4FB34929596C5F00D98B21 /* Satoshi-VariableItalic.ttf in Resources */,
+				6D0C7CB82977B534009790C9 /* ResiTransaksi.xib in Resources */,
+				6D2839BE297D71A900A53A5D /* NewPassword.xib in Resources */,
+				6D23415E297F224000976B7A /* Mpin.xib in Resources */,
 				6D4FB32A29595E2900D98B21 /* LaunchScreen.storyboard in Resources */,
+				6D4FB34C29596C5F00D98B21 /* Satoshi-Medium.otf in Resources */,
+				6D2839C3297D8C9400A53A5D /* NewUsername.xib in Resources */,
+				6DC05E9229712A91006E7559 /* TabbarVC.xib in Resources */,
+				6DC5B401297928E400C807FA /* NotifikasiVC.xib in Resources */,
+				6D9244F0297D294C006CF951 /* Onboarding3.xib in Resources */,
+				6D4FB34829596C5F00D98B21 /* Satoshi-Variable.ttf in Resources */,
+				6D4FDE1F297F0A7000B73A5C /* TransferVC.xib in Resources */,
+				6D4FB34D29596C5F00D98B21 /* Satoshi-Light.otf in Resources */,
+				6D4FB33429595F4600D98B21 /* PendaftaranAkun.xib in Resources */,
+				6D9244EC297D24BB006CF951 /* Onboarding2.xib in Resources */,
+				6DC05E882971148D006E7559 /* MutasiVC.xib in Resources */,
+				6D4FB34F29596C5F00D98B21 /* Satoshi-LightItalic.otf in Resources */,
+				6D4FB35129596C5F00D98B21 /* Satoshi-BoldItalic.otf in Resources */,
+				6D4FB34A29596C5F00D98B21 /* Satoshi-Black.otf in Resources */,
 				6D4FB32729595E2900D98B21 /* Assets.xcassets in Resources */,
+				6D644810295A097500BB664D /* LupaUsername.xib in Resources */,
+				6DC05E7E297111E1006E7559 /* BerandaVC.xib in Resources */,
+				6D4FB35229596C5F00D98B21 /* Satoshi-MediumItalic.otf in Resources */,
+				6D4FDE15297E49F200B73A5C /* CellMutasi.xib in Resources */,
+				6DD1A373297FF70F002200FC /* CellNotif.xib in Resources */,
+				6D4FDE10297E428100B73A5C /* CellList.xib in Resources */,
 				6D4FB32529595E2700D98B21 /* Main.storyboard in Resources */,
+				6D64480C295A095800BB664D /* LupaAkun.xib in Resources */,
+				6DF5199D295A0A72006BA351 /* AktivasiAkun.xib in Resources */,
+				6DF51996295A09F6006BA351 /* LupaPassword.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +808,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D64480A295A094B00BB664D /* LupaUsername.swift in Sources */,
 				6D4FB32229595E2700D98B21 /* ViewController.swift in Sources */,
+				6DF5199F295A0A7C006BA351 /* BuatMpin.swift in Sources */,
+				6D4FB3552959972B00D98B21 /* Login.swift in Sources */,
+				6D2839BC297D719600A53A5D /* NewPassword.swift in Sources */,
+				6D4FDE1D297F0A6500B73A5C /* TransferVC.swift in Sources */,
+				6D4FDE0E297E427800B73A5C /* CellList.swift in Sources */,
+				6D234152297F1CFE00976B7A /* Transfer2.swift in Sources */,
+				6DC5B3FF297928DA00C807FA /* NotifikasiVC.swift in Sources */,
+				6D9244EA297D24AF006CF951 /* Onboarding2.swift in Sources */,
+				6DFEF1A8296BD5EC004FA3CC /* RegisterModel.swift in Sources */,
+				6DD34ACC295BF2BA00C70AD8 /* PopupSukses.swift in Sources */,
+				6D9244EE297D293F006CF951 /* Onboarding3.swift in Sources */,
+				6DB1D3DD295BDD36004D6BEE /* Extension.swift in Sources */,
+				6D23415C297F223700976B7A /* Mpin.swift in Sources */,
+				6DC05E8E2971154B006E7559 /* HistoryVC.swift in Sources */,
+				6D644808295A093700BB664D /* LupaAkun.swift in Sources */,
+				6DD1A371297FF706002200FC /* CellNotif.swift in Sources */,
+				6D4FDE13297E49E900B73A5C /* CellMutasi.swift in Sources */,
+				6D23416F297F50D400976B7A /* EditUsername.swift in Sources */,
+				6DE7A38E295C0B71006B29AC /* PopupGagal.swift in Sources */,
+				6D23414D297F124C00976B7A /* CellTransfer.swift in Sources */,
+				6D4FB33229595EFA00D98B21 /* PendaftaranAkun.swift in Sources */,
+				6DC05E8C2971150C006E7559 /* ProfilVC.swift in Sources */,
+				6DF5199B295A0A65006BA351 /* AktivasiAkun.swift in Sources */,
+				6DD7D2082964846100EB8062 /* Onboarding.swift in Sources */,
+				6D644805295A08ED00BB664D /* LupaPassword.swift in Sources */,
+				6DE35CD8296EB15C003AD676 /* TabbarVC.swift in Sources */,
+				6DC05E8029711216006E7559 /* BerandaVC.swift in Sources */,
+				6D2839C1297D8C8700A53A5D /* NewUsername.swift in Sources */,
+				6DFEF1A4296BD4FF004FA3CC /* APIManager.swift in Sources */,
 				6D4FB31E29595E2700D98B21 /* AppDelegate.swift in Sources */,
+				6D234169297F506600976B7A /* EditMpin.swift in Sources */,
 				6D4FB32029595E2700D98B21 /* SceneDelegate.swift in Sources */,
+				6DC05E8629711469006E7559 /* MutasiVC.swift in Sources */,
+				6D23416D297F50BD00976B7A /* EditPassword.swift in Sources */,
+				6D0C7CBA2977B53E009790C9 /* ResiTransaksi.swift in Sources */,
+				6D234159297F21F900976B7A /* KonfirmTransfer.swift in Sources */,
+				6D234162297F4B3700976B7A /* EditProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +993,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Alamofire.xcframework/macos-arm64_x86_64",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EvilCorps_Mbanking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +1012,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ist.EvilCorps-Mbanking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,13 +1028,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Alamofire.xcframework/macos-arm64_x86_64",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EvilCorps_Mbanking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +1047,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ist.EvilCorps-Mbanking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

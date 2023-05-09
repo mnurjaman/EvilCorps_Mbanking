@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+        <array key="Satoshi-Medium.otf">
+            <string>Satoshi-Medium</string>
+        </array>
+        <array key="Satoshi-Regular.otf">
+            <string>Satoshi-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Onboarding" customModule="EvilCorps_Mbanking" customModuleProvider="target">
+            <connections>
+                <outlet property="btnNext" destination="xoe-fC-hWB" id="pgm-Tv-i6G"/>
+                <outlet property="btnSkip" destination="2Eb-5g-j6H" id="PnV-1b-riY"/>
+                <outlet property="view" destination="iN0-l3-epB" id="reb-au-8MF"/>
+                <outlet property="viewbg" destination="iN0-l3-epB" id="ZAS-Jw-Q2M"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Eb-5g-j6H">
+                    <rect key="frame" x="328" y="59" width="45" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="2Eb-5g-j6H" secondAttribute="height" multiplier="31:22" id="5MT-Ie-BlZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Skip">
+                        <color key="titleColor" name="Neutral 100"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kami akan memberi rekomendasi yang tepat untuk manajemen keuangan anda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vEv-Ca-Qye">
+                    <rect key="frame" x="51.666666666666657" y="616.33333333333337" width="290" height="40.666666666666629"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="vEv-Ca-Qye" secondAttribute="height" multiplier="272:38" id="ORJ-sj-ei8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manajemen Keuangan Anda Dengan Aman" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkF-Vy-grC">
+                    <rect key="frame" x="63" y="523" width="267" height="81.333333333333371"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="JkF-Vy-grC" secondAttribute="height" multiplier="249:76" id="1b0-x0-BR4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoe-fC-hWB">
+                    <rect key="frame" x="323" y="708" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="RRN-Dw-XF1"/>
+                        <constraint firstAttribute="height" constant="50" id="uso-Hv-7bj"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="btnNext1" title=""/>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding11" translatesAutoresizingMaskIntoConstraints="NO" id="kQu-k4-4NV">
+                    <rect key="frame" x="-134.33333333333334" y="91" width="661.66666666666663" height="418"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kQu-k4-4NV" secondAttribute="height" multiplier="418:264" id="gss-kS-9O1"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vEv-Ca-Qye" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="51.5" id="1ch-Uq-KnA"/>
+                <constraint firstItem="kQu-k4-4NV" firstAttribute="top" secondItem="2Eb-5g-j6H" secondAttribute="bottom" id="92E-ba-9st"/>
+                <constraint firstItem="vEv-Ca-Qye" firstAttribute="top" secondItem="JkF-Vy-grC" secondAttribute="bottom" constant="12" id="Cf1-Ht-ZOj"/>
+                <constraint firstItem="JkF-Vy-grC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="63" id="Dph-Ls-2dc"/>
+                <constraint firstItem="2Eb-5g-j6H" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="IOp-uG-9fc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="xoe-fC-hWB" secondAttribute="bottom" constant="60" id="Lml-2L-dau"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xoe-fC-hWB" secondAttribute="trailing" constant="20" id="VMH-0z-6kp"/>
+                <constraint firstItem="kQu-k4-4NV" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="YrE-zj-VH3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="JkF-Vy-grC" secondAttribute="trailing" constant="63" id="bmk-vB-8Pu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vEv-Ca-Qye" secondAttribute="trailing" constant="51.5" id="gF4-Hb-FSE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2Eb-5g-j6H" secondAttribute="trailing" constant="20" id="tOX-eX-ldW"/>
+                <constraint firstItem="JkF-Vy-grC" firstAttribute="top" secondItem="kQu-k4-4NV" secondAttribute="bottom" constant="14" id="wgJ-84-h81"/>
+            </constraints>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btnNext1" width="96" height="96"/>
+        <image name="onboarding11" width="264.66665649414062" height="418"/>
+        <namedColor name="Neutral 100">
+            <color red="0.125" green="0.13699999451637268" blue="0.15299999713897705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

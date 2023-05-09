@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+        <array key="Satoshi-Medium.otf">
+            <string>Satoshi-Medium</string>
+        </array>
+        <array key="Satoshi-Regular.otf">
+            <string>Satoshi-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellTransferList" id="8Xf-TW-zvY" customClass="CellTransfer" customModule="EvilCorps_Mbanking" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Xf-TW-zvY" id="bUE-HW-9Vf">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="rxb-zo-SH3">
+                        <rect key="frame" x="20" y="16" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="M4f-8J-yTo"/>
+                            <constraint firstAttribute="height" constant="48" id="yBf-JY-0vQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXj-w8-rIc">
+                        <rect key="frame" x="37.333333333333336" y="27.666666666666671" width="13.666666666666664" height="25"/>
+                        <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ex5-uE-Isd">
+                        <rect key="frame" x="76" y="16" width="35" height="18"/>
+                        <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aio-8S-4ve">
+                        <rect key="frame" x="76" y="40" width="29" height="15"/>
+                        <fontDescription key="fontDescription" name="Satoshi-Regular" family="Satoshi" pointSize="12"/>
+                        <color key="textColor" name="Neutral 70"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Aio-8S-4ve" firstAttribute="top" secondItem="ex5-uE-Isd" secondAttribute="bottom" constant="6" id="0vj-sM-hNd"/>
+                    <constraint firstItem="Aio-8S-4ve" firstAttribute="leading" secondItem="rxb-zo-SH3" secondAttribute="trailing" constant="8" id="Hzm-kP-KDP"/>
+                    <constraint firstItem="ex5-uE-Isd" firstAttribute="top" secondItem="bUE-HW-9Vf" secondAttribute="top" constant="16" id="OFV-HH-Xcb"/>
+                    <constraint firstItem="rxb-zo-SH3" firstAttribute="centerY" secondItem="bUE-HW-9Vf" secondAttribute="centerY" id="PYT-di-Mcr"/>
+                    <constraint firstItem="TXj-w8-rIc" firstAttribute="centerY" secondItem="rxb-zo-SH3" secondAttribute="centerY" id="Wcq-Dh-L2D"/>
+                    <constraint firstItem="TXj-w8-rIc" firstAttribute="centerX" secondItem="rxb-zo-SH3" secondAttribute="centerX" id="fcG-Hs-Cxp"/>
+                    <constraint firstItem="ex5-uE-Isd" firstAttribute="leading" secondItem="rxb-zo-SH3" secondAttribute="trailing" constant="8" id="nZg-qY-2DV"/>
+                    <constraint firstItem="rxb-zo-SH3" firstAttribute="leading" secondItem="bUE-HW-9Vf" secondAttribute="leading" constant="20" id="uPg-lC-K3J"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblInisial" destination="TXj-w8-rIc" id="RAb-Gb-V9f"/>
+                <outlet property="lblNama" destination="ex5-uE-Isd" id="SAS-z5-9rh"/>
+                <outlet property="lblNoRekening" destination="Aio-8S-4ve" id="q70-A3-vOk"/>
+            </connections>
+            <point key="canvasLocation" x="-48.091603053435115" y="0.70422535211267612"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bgAvatar" width="60" height="60"/>
+        <namedColor name="Neutral 70">
+            <color red="0.40799999237060547" green="0.46700000762939453" blue="0.55299997329711914" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
