@@ -1,4 +1,7 @@
 # EvilCorps_Mbanking
+Dependency Manage: Carthage
+Framework: Alamofire
+
 This's final project Bootcamp in Infosys Solusi Terpadu (IST). Build with Team
 
 
