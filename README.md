@@ -25,3 +25,20 @@ To get started with the project locally, follow these steps:
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/mnurjaman/EvilCorps_Mbanking.git
+2. Navigate into the project directory:
+   ```bash
+   cd EvilCorps_Mbanking
+4. Install dependencies using Carthage:
+   ```bash
+   carthage update
+6. Open the project in Xcode:
+   ```bash
+   open EvilCorps_Mbanking.xcworkspace
+
+### Technologies Used:
+- **Swift & Objective-C**: For building the core iOS app functionality.
+- **Alamofire**: To handle network requests and API management.
+- **Carthage**: A dependency manager to manage external libraries.
+- **User Profile Management**: Update user information and manage account settings.
+
+
