@@ -11,7 +11,7 @@
 - **Programming Languages**: Swift, Objective-C
 - **Dependency Manager**: Carthage
 - **Framework**: Alamofire (for API management)
-- **Architecture**: MVC or MVVM (please specify which one is used)
+- **Architecture**: MVVM
 
 ### Main Features:
 - **Login & User Authentication**: Secure login system with encrypted credentials.
